@@ -1724,26 +1724,46 @@ textarea.form-control {
   font-weight: 600;
 }
 @media (max-width: 768px) {
-  .hero-3d-ring-outer {
-    width: 270px;
-    height: 270px;
+
+  .hero {
+    padding: 2rem 0 4rem;
   }
 
-  .hero-visual-card {
-    width: 100%;
-    max-width: 100%;
+  .hero-ornate-frame {
+    padding: 2rem 1rem;
   }
 
   .hero-content-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
-  .hero-actions {
-    flex-direction: column;
-  }
-
-  .hero-actions .btn {
+  .hero-visual-card {
     width: 100%;
+    min-width: 0;
+  }
+
+  .hero-3d-ring-outer {
+    width: 210px !important;
+    height: 210px !important;
+    padding: 8px !important;
+  }
+
+  .hero-3d-ring-inner {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+
+  .hero-main-img-wrapper {
+    width: 100% !important;
+    max-width: none !important;
+    height: 100%;
+    padding: 5px;
+  }
+
+  .hero-main-img-wrapper img {
+    width: 100%;
+    height: 100%;
   }
 }
