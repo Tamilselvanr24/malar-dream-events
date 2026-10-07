@@ -1723,3 +1723,27 @@ textarea.form-control {
   color: #120205;
   font-weight: 600;
 }
+@media (max-width: 768px) {
+  .hero-3d-ring-outer {
+    width: 270px;
+    height: 270px;
+  }
+
+  .hero-visual-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-content-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+}
